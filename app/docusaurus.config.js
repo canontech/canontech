@@ -7,14 +7,14 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'emostov', // Usually your GitHub org/user name.
+  projectName: 'canon-app', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: '',
       logo: {
-        alt: 'Resonance Infra',
-        src: 'img/logo.svg',
+        alt: 'canon infra',
+        src: 'img/canon_infra_1.svg',
       },
       items: [
         {
@@ -44,23 +44,6 @@ module.exports = {
           ],
         },
         {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
           title: 'More',
           items: [
             {
@@ -69,7 +52,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/emostov',
             },
           ],
         },
