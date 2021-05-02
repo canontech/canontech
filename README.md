@@ -1,2 +1,3 @@
-# canon-resonance-app
-canon / resonance web app
+# canon-infra
+
+canon infra web app.
