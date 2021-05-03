@@ -4,18 +4,8 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Staking & Collating in Substrate Ecosystem',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Who We Are',
+    Svg: require('../../static/img/canon_small.svg').default,
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -23,12 +13,22 @@ const FeatureList = [
       </>
     ),
   },
+	{
+		title: 'Stake Polkadot',
+		Svg: require('../../static/img/polkadot_symbol/SVG/Polkadot_symbol_black.svg').default,
+		description: (
+			<>
+				Lorem Ipsum Docusaurus was designed from the ground up to be easily installed and
+				used to get your website up and running quickly.
+			</>
+		),
+	},
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: 'Learn how to safely nominate',
+    Svg: require('../../static/img/kusama_transparent.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
+        Lorem Ipsum your website layout by reusing React. Docusaurus can
         be extended while reusing the same header and footer.
       </>
     ),

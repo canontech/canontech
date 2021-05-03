@@ -1,18 +1,18 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'canon infra',
+  tagline: 'Staking information and infrastructure with the experts',
 	url: 'https://emostov.github.io',
   baseUrl: '/canon-infra/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-	favicon: 'img/favicon.ico',
+	favicon: 'img/canon_small.png',
   organizationName: 'emostov', // Usually your GitHub org/user name.
   projectName: 'canon-app', // Usually your repo name.
   themeConfig: {
 		// Relative to your site's "static" directory.
 		// Cannot be SVGs. Can be external URLs too.
-		image: 'img/canon_infra_1_small.png',
+		image: 'img/canon_small.png',
 		colorMode: {
 			// "light" | "dark"
 			defaultMode: 'light',
@@ -42,10 +42,13 @@ module.exports = {
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
+			logo: {
+				src: 'img/canon_infra_1.svg'
+			},
       links: [
         {
-          title: 'Knowledge base',
+          title: 'knowledge base',
           items: [
             {
               label: 'Nominating',
@@ -54,18 +57,27 @@ module.exports = {
           ],
         },
         {
-          title: 'More',
+          title: 'social',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/emostov',
+              label: 'Twitter',
+							href: 'https://twitter.com/zekemostov',
             },
           ],
         },
+				{
+					title: 'resources',
+					items: [
+						{
+							label: 'Blog',
+							to: '/blog',
+						},
+						{
+							label: 'twitter',
+							href: 'https://twitter.com/zekemostov',
+						},
+					],
+				},
       ],
       copyright: `Copyright © ${new Date().getFullYear()} canon infra`,
     },
