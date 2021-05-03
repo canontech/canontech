@@ -6,10 +6,20 @@ module.exports = {
   baseUrl: '/canon-infra/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+	favicon: 'img/favicon.ico',
   organizationName: 'emostov', // Usually your GitHub org/user name.
   projectName: 'canon-app', // Usually your repo name.
   themeConfig: {
+		// Relative to your site's "static" directory.
+		// Cannot be SVGs. Can be external URLs too.
+		image: 'img/canon_infra_1_small.png',
+		colorMode: {
+			// "light" | "dark"
+			defaultMode: 'light',
+			// Hides the switch in the navbar
+			// Useful if you want to support a single color mode
+			disableSwitch: true,
+		},
     navbar: {
       title: '',
       logo: {
@@ -21,12 +31,12 @@ module.exports = {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Learn nominating',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+					href: 'https://polkadot.js.org/apps/#/staking/actions',
+          label: 'Nominate',
           position: 'right',
         },
       ],
@@ -35,10 +45,10 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Knowledge base',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Nominating',
               to: '/docs/intro',
             },
           ],
@@ -57,7 +67,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} canon infra`,
     },
   },
   presets: [
