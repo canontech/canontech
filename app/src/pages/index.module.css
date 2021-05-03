@@ -25,11 +25,6 @@
   align-items: center;
   justify-content: center;
 }
-/* 
-@fontface {
-  font-family: 'Inconsolata', monospace;
-  src: url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swa')
-} */
 
 .logoTest {
   font-family: 'Inconsolata', monospace;

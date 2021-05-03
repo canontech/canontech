@@ -16,9 +16,12 @@
   --ifm-color-primary-darkest: rgb(101, 43, 34);
   --ifm-color-primary-light: rgb(210, 166, 101);
   --ifm-color-primary-lighter: rgb(220, 176, 111);
-  --ifm-color-primary-lightest: rgb(240, 186, 121);
+  --ifm-color-primary-lightest: rgb(255, 206, 141);
   --ifm-code-font-size: 95%;
   --ifm-font-family-base: 'Work Sans';
+  --ifm-navbar-background-color: var(--ifm-color-primary-dark);
+  --ifm-menu-color-active: var(--ifm-color-primary-darkest);
+  --ifm-menu-color: rgb(36, 31, 30);
 }
 /* ^^^ @source: https://www.color-hex.com/color-palette/32442 */
 
@@ -34,4 +37,8 @@
 @font-face {
   font-family: 'Work Sans', sans-serif;
   src: url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap');
+}
+
+.menu {
+  background: var(--ifm-color-primary-lightest);
 }

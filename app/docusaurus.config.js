@@ -73,7 +73,7 @@ module.exports = {
 							to: '/blog',
 						},
 						{
-							label: 'twitter',
+							label: 'Web 3 Basics',
 							href: 'https://twitter.com/zekemostov',
 						},
 					],
