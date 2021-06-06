@@ -10,7 +10,7 @@
     <entry>
         <title type="html"><![CDATA[Hello World!]]></title>
         <id>hello-world</id>
-        <link href="https://canontech.github.io/canontech/blog/hello-world"/>
+        <link href="https://canontech.github.io/blog/hello-world"/>
         <updated>2021-06-01T07:00:00.000Z</updated>
         <summary type="html"><![CDATA[Welcome to the canontech blog! We are in the early phases of launching, so keep an eye out here for educational content and tooling for validators and nominators.]]></summary>
     </entry>

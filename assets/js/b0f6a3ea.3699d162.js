@@ -1,1 +1,0 @@
-(self.webpackChunkapp=self.webpackChunkapp||[]).push([[106],{6353:function(e){"use strict";e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Hello World!","permalink":"/canontech/blog/hello-world"}]}')}}]);
