@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>canontech Blog</title>
+        <link>https://canontech.github.io/blog</link>
+        <description>canontech Blog</description>
+        <lastBuildDate>Tue, 01 Jun 2021 07:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Hello World!]]></title>
+            <link>https://canontech.github.io/canontech/blog/hello-world</link>
+            <guid>hello-world</guid>
+            <pubDate>Tue, 01 Jun 2021 07:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to the canontech blog! We are in the early phases of launching, so keep an eye out here for educational content and tooling for validators and nominators.]]></description>
+        </item>
+    </channel>
+</rss>

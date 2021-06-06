@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://canontech.github.io/blog</id>
+    <title>canontech Blog</title>
+    <updated>2021-06-01T07:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://canontech.github.io/blog"/>
+    <subtitle>canontech Blog</subtitle>
+    <icon>https://canontech.github.io/img/canon_small.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Hello World!]]></title>
+        <id>hello-world</id>
+        <link href="https://canontech.github.io/canontech/blog/hello-world"/>
+        <updated>2021-06-01T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to the canontech blog! We are in the early phases of launching, so keep an eye out here for educational content and tooling for validators and nominators.]]></summary>
+    </entry>
+</feed>
