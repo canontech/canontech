@@ -3,7 +3,7 @@ module.exports = {
   title: 'canontech',
   tagline: 'Staking resources and infrastructure for Polkadot, Kusama, and their parachains.',
 	url: 'https://canontech.github.io/',
-	baseUrl: '/canontech/',
+	baseUrl: '/',
   projectName: 'canontech', // Usually your repo name.
 	organizationName: 'canontech', // Usually your GitHub org/user name.
   onBrokenLinks: 'throw',
