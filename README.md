@@ -1,6 +1,6 @@
-# canon-infra
+# canontech-web-app
 
-canon infra web app.
+canontech org website.
 
 
 ## Start
@@ -10,4 +10,4 @@ cd app
 yarn start
 ```
 
-Then a chrome window should pop up with `http://localhost:3000/`
+Then a browser window should pop up with `http://localhost:3000/`
