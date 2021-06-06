@@ -2,34 +2,20 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Hello
 
-Let's discover **Docusaurus in less than 5 minutes**.
+This is the canontech technical knowledge base. In the near future we will have content such as **advanced nomination** strategies, **staking tooling** tutorials, and more!
 
-## Getting Started
+## Our open source resources
 
-Get started by **creating a new site**.
+- [**staking-payouts**](https://www.npmjs.com/package/@zekemostov/staking-payouts): Scalable CLI for automated staking payouts.
+- [**txintegration**](https://github.com/joepetrowski/txintegration): Guide to using
+[**substrate-api-sidecar**](https://github.com/paritytech/substrate-api-sidecar) and
+[**txwrapper**](https://github.com/paritytech/txwrapper) to construct, sign, and submit a transaction to
+a Substrate-based chain.
+- [**proxy-multisig-staking**](https://github.com/emostov/proxy-multisig-staking): Demo of institutional grade key management primitives for Substrate staking operations; utilizing multisigs, anonymous proxy accounts, and `Staking` + `CancelProxy` proxy filters.
+- [**proxy-hot-wallet**](https://github.com/emostov/proxy-hot-wallet): Demo for a safe and effective custodial hot wallet architecture using features innovated by Substrate `FRAME` pallets and featured in production chains such as Polkadot and Kusama.
 
-Or **try Docusaurus immediately** with **[new.docusaurus.io](https://new.docusaurus.io)**.
+## Come back soon
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+Keep an eye out for new, original content by following us on [**github**](https://github.com/canontech) and [**twitter**](https://twitter.com/canon_tech). 

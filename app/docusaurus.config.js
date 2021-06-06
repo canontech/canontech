@@ -1,13 +1,13 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'canon infra',
-  tagline: 'Staking information and infrastructure with the experts',
+  title: 'canontech',
+  tagline: 'Staking resources and infrastructure for Polkadot, Kusama, and their parachains.',
 	url: 'https://emostov.github.io',
-  baseUrl: '/canon-infra/',
+  baseUrl: '/canontech/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 	favicon: 'img/canon_small.png',
-  organizationName: 'emostov', // Usually your GitHub org/user name.
+	organizationName: 'canontech', // Usually your GitHub org/user name.
   projectName: 'canon-app', // Usually your repo name.
   themeConfig: {
 		// Relative to your site's "static" directory.
@@ -21,22 +21,22 @@ module.exports = {
 			disableSwitch: true,
 		},
     navbar: {
-      title: '',
+      title: 'home',
       logo: {
-        alt: 'canon infra',
-        src: 'img/canon_infra_1.svg',
+        alt: 'canontech',
+        src: 'img/canontech_1.svg',
       },
       items: [
         {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Learn nominating',
+          label: 'knowledge base',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: 'blog', position: 'left'},
         {
 					href: 'https://polkadot.js.org/apps/#/staking/actions',
-          label: 'Nominate',
+          label: 'nominate',
           position: 'right',
         },
       ],
@@ -44,7 +44,7 @@ module.exports = {
     footer: {
       style: 'light',
 			logo: {
-				src: 'img/canon_infra_1.svg'
+				src: 'img/canontech_1.svg'
 			},
       links: [
         {
@@ -61,7 +61,7 @@ module.exports = {
           items: [
             {
               label: 'Twitter',
-							href: 'https://twitter.com/zekemostov',
+							href: 'https://twitter.com/canon_tech',
             },
           ],
         },
@@ -73,13 +73,13 @@ module.exports = {
 							to: '/blog',
 						},
 						{
-							label: 'Web 3 Basics',
-							href: 'https://twitter.com/zekemostov',
+							label: 'Polkadot Basics',
+							href: 'https://wiki.polkadot.network/docs/en/learn-nominator',
 						},
 					],
 				},
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} canon infra`,
+      copyright: `Copyright © ${new Date().getFullYear()} canontech`,
     },
   },
   presets: [

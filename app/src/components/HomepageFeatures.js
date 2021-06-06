@@ -8,8 +8,9 @@ const FeatureList = [
     Svg: require('../../static/img/canon_small.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Joe Petrowski & Zeke Mostov, both working full time on Polkadot,
+				Kusama and the underlying Substrate blockchain framework, bring their
+				technical expertise to delivering secure validating infrastructure.
       </>
     ),
   },
@@ -18,18 +19,16 @@ const FeatureList = [
 		Svg: require('../../static/img/polkadot_symbol/SVG/Polkadot_symbol_black.svg').default,
 		description: (
 			<>
-				Lorem Ipsum Docusaurus was designed from the ground up to be easily installed and
-				used to get your website up and running quickly.
+				Coming soon..
 			</>
 		),
 	},
   {
-    title: 'Learn how to safely nominate',
+    title: 'Stake Kusama ',
     Svg: require('../../static/img/kusama_transparent.svg').default,
     description: (
       <>
-        Lorem Ipsum your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+				Coming soon..
       </>
     ),
   },
