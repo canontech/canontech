@@ -1,6 +1,6 @@
-# canontech-web-app
+# canontech
 
-canontech org website.
+canontech org web app.
 
 
 ## Start

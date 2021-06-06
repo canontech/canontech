@@ -2,13 +2,13 @@
 module.exports = {
   title: 'canontech',
   tagline: 'Staking resources and infrastructure for Polkadot, Kusama, and their parachains.',
-	url: 'https://emostov.github.io',
-  baseUrl: '/canontech/',
+	url: 'https://canontech.github.io/',
+	baseUrl: '/canontech/',
+  projectName: 'canontech', // Usually your repo name.
+	organizationName: 'canontech', // Usually your GitHub org/user name.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 	favicon: 'img/canon_small.png',
-	organizationName: 'canontech', // Usually your GitHub org/user name.
-  projectName: 'canon-app', // Usually your repo name.
   themeConfig: {
 		// Relative to your site's "static" directory.
 		// Cannot be SVGs. Can be external URLs too.
