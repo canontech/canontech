@@ -8,9 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/canon_small.svg').default,
     description: (
       <>
-        Joe Petrowski & Zeke Mostov, both working full time on Polkadot,
-				Kusama and the underlying Substrate blockchain framework, bring their
-				technical expertise to delivering secure validating infrastructure.
+        We bring our industry experience from working with the underlying blockchain technologies to delivering secure validating infrastructure.
       </>
     ),
   },
@@ -19,7 +17,7 @@ const FeatureList = [
 		Svg: require('../../static/img/polkadot_symbol/SVG/Polkadot_symbol_black.svg').default,
 		description: (
 			<>
-				Coming soon..
+				Coming soon ...
 			</>
 		),
 	},
@@ -28,7 +26,7 @@ const FeatureList = [
     Svg: require('../../static/img/kusama_transparent.svg').default,
     description: (
       <>
-				Coming soon..
+				Coming soon ...
       </>
     ),
   },

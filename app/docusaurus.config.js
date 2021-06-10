@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'canontech',
-  tagline: 'Staking resources and infrastructure for Polkadot, Kusama, and their parachains.',
+  tagline: 'Staking resources and infrastructure',
 	url: 'https://canontech.github.io/',
 	baseUrl: '/',
   projectName: 'canontech', // Usually your repo name.

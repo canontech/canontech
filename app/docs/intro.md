@@ -18,4 +18,4 @@ a Substrate-based chain.
 
 ## Come back soon
 
-Keep an eye out for new, original content by following us on [**github**](https://github.com/canontech) and [**twitter**](https://twitter.com/canon_tech). 
+Keep an eye out for new, original content by following us on [**github**](https://github.com/canontech) and [**twitter**](https://twitter.com/canon_tech).
